@@ -1,0 +1,13 @@
+[project]
+name = "6-fastapi-postgresql"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[all]>=0.136.1",
+    "psycopg>=3.3.3",
+    "pwdlib[argon2]>=0.3.0",
+    "pyjwt>=2.12.1",
+    "sqlalchemy>=2.0.49",
+]
